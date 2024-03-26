@@ -1,23 +1,105 @@
-.paper {
-    padding: 100px 100px;
-    border: 5px solid white;
-    position: absolute; /* ek ke upar ek kar deta hai */
-}
 body {
-    background-color: black;
-    display: flex;
+    /* display: flex;
     height: 100vh;
     align-items: center;  /* column ke center mei karta hai */
+    /*justify-content: center;  row ke center mei karta hai */
+    background-image: url('./assets/background.jpg');
+    background-size: 1000px;
+    background-position: center center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.main{
+    display: flex;
+    height: 90vh;
+    align-items: center;  /* column ke center mei karta hai */
     justify-content: center;  /* row ke center mei karta hai */
+}
+
+.paper {
+    padding: 100px 100px;
+    border: 2px solid black;
+    position: absolute; /* ek ke upar ek kar deta hai */
+    cursor:grab;
+    background-image: url('./assets/paper.jpg');
+    background-size: 100px;
+    padding: 20px 100px;
+    transform: rotateZ(-5deg);
+    box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
+    user-select: none;
 
 }
 
 .paper.paper1{
-    z-index: 1;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    user-select: none;
+    border-radius: 50%;
+
+    
+}
+.paper.paper1 img{
+    width: 150px;
+    height: 150px;
+    user-select: none;
 }
 
 .paper.paper2{
-    /* z-index: 2; */
-    background-color: blue;
+    z-index: 5;
+    width: 100px;
+    user-select: none;
+}
+
+.paper.paper3{
+    z-index: 4;
+    width: 300px;
+    user-select: none;
+}
+
+.paper.paper4{
+    z-index: 3;
+    width: 150px;
+    user-select: none;
+}
+
+.paper.paper5{
+    z-index: 2;
+}
+
+.paper.paper6{
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    padding:0;
+}
+
+.paper.paper6 img{
+    width: 300px;
+    height: 300px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-family: "Zeyada", cursive;
+    font-weight: 500;
+    font-size:xx-large;
 }
