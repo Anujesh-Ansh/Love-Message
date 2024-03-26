@@ -1,0 +1,23 @@
+.paper {
+    padding: 100px 100px;
+    border: 5px solid white;
+    position: absolute; /* ek ke upar ek kar deta hai */
+}
+body {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    align-items: center;  /* column ke center mei karta hai */
+    justify-content: center;  /* row ke center mei karta hai */
+
+}
+
+.paper.paper1{
+    z-index: 1;
+    background-color: red;
+}
+
+.paper.paper2{
+    /* z-index: 2; */
+    background-color: blue;
+}
