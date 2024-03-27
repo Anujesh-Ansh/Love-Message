@@ -7,7 +7,7 @@ Express your heartfelt affection with this special Love Message Website, dedicat
 1. Open the `index.html` file in your web browser.
 2. Arrange the love notes by dragging and dropping them to your desired locations.
 3. Personalize the messages and images to create a unique and meaningful experience.
-4. Share the link with Sakshi to let her know just how much she means to you! 💕
+4. Share the link with ur Loved one to let her know just how much she means to you! 💕
 
 ## Features 🌟
 
