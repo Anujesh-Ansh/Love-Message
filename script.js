@@ -5,7 +5,7 @@
 4-> Release the Left Click.
 */
 
-let highestZ = 6;
+let highestZ = 10;
 
 class Paper {
     holdingPaper = false;
